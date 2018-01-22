@@ -1,0 +1,11 @@
+\section{Problem Statement}
+\label{sec:problemstatement}
+
+This paper focuses on the general problem of verifying the speaker in the telephone customer service. As there . This problem evaluates the effectiveness and utility of the domain information for the speaker verification.
+
+
+
+Given a question qi , and a set of its answers {Ai1 , Ai2 , ..., Ain }, our goal is to calculate the answer quality for each answer using temporal (and other) features and choose the highest rank done as the best answer. Ranking of all answers will allow us to order answers with respect to quality. We will use the vote-based approach for comparing our results with the actual votes given for each answer. In case of a tie, all tied answers are not considered as best answers. The original order of extracted answers is used. We have purposely chosen this approach to show that even the worst case scenario results in good accuracy.
+
+We believe that predicting the best answer with good accuracy is important. At the same time, it is equally important to predict the answer quality for non-best answers to match the voting (or service-specific) approach. Conventional precision and recall does not seem to be appropriate for this problem. Hence, we choose precision at top 1 (Top@1) to measure the best answer accuracy and mean reciprocal rank (MRR) to evaluate the predicted non-best answer quality.
+
