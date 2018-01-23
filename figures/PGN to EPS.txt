@@ -1,1 +1,4 @@
 bmeps -c ERRForThreeMethods.png ERRForThreeMethods.eps
+bmeps -c PinganSRE.png PinganSRE.eps
+bmeps -c PinganSampleTCS.png PinganSampleTCS.eps
+bmeps -c ClassificationTCS.png ClassificationTCS.eps
